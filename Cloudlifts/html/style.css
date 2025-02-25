@@ -1,0 +1,482 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: auto;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c1d6f7;
+    padding: 13px;
+}
+.navbar img{
+    width: 200;
+    height: 54.239742279052734;
+    top: 23px;
+    left: 153px;    
+}
+.menu ul{
+    display: flex;
+    gap: 30px;
+    
+}
+.menu ul li {
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    gap: 25px;
+    list-style-type: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.2px;
+    letter-spacing: 0%;
+}
+@media only screen and (max-width: 991px){
+    .navbar{
+        flex-direction: column;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+}
+
+/* <!-- section-2 --> */
+
+.ict{
+    position: relative;
+}
+.ict img{
+    height: 100%;
+    width: 100%;
+}
+.read{
+    position: absolute;
+    width: 736px;
+    padding-left: 60px;
+    margin-top: -400px;
+    color: white;
+}
+.read h2{
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 35px;
+}
+.read span{
+    color: #0066FF;
+}
+.read p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0%;
+    padding: 20px 0;
+}
+.read button{
+    width: 163;
+    height: 64;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0%;
+}
+@media only screen and (max-width: 991px){
+    .read{
+        width: 100%;
+        height: 100%;
+        margin-top: -200px;
+        padding: 0;
+    }
+    .ict img{
+        height: 200%;
+        width: 100%;
+    }
+    .read h2{
+        font-size: 22px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .read p{
+        font-size: 20px;
+        text-align: center;
+        margin-top: -10px;
+        margin-bottom: -10px;
+    }
+    .read button{
+        font-weight: 300;
+        font-size: 15px;
+        text-align: center;
+        margin-left: 170px;
+        padding: 5px 10px;
+    }
+        
+}
+
+/* <!-- section-3 --> */
+.about{
+    display: flex;
+    gap: 15px;
+}
+.img img{
+    width: 634px;
+    height: 441px;
+    top: 980px;
+    left: 153px;
+}
+.Cloudlifts{
+    width: 746;
+    height: 195;
+    padding: 80px 0;
+    border-radius: 5px;   
+}
+.us{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    letter-spacing: 0%;
+    color: #0066FF;
+}
+.Cloudlifts h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58.09px;
+    letter-spacing: 0%;    
+}
+h2 span{
+    color: #0066FF;
+}
+.Cloudlifts p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 10px 0;   
+}
+.are{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0%;    
+}
+.Cloudlifts button{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 34px;
+    margin-top: 10px;
+    background-color: #0066FF;
+    color: white;
+    padding: 0 20px;
+    border: none;
+}
+@media only screen and (max-width: 991px){
+    .about{
+        flex-direction: column;
+        text-align: center;
+    }
+    .img img{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+/* <!-- section-4 --> */
+
+.what{
+    text-align: center;
+}
+.what span{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.78px;
+    text-align: center;
+    color: #0066FF; 
+}
+.what h4{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58.09px;
+    text-align: center;
+    
+}
+.pay{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pay img{
+    width: 146px;
+    height: 140px;
+    background-color:#b3d1ff;
+    border-radius: 50%;
+    margin-left: 60px;
+}
+.pay1 ,.pay2 ,.pay3{
+    padding: 20px 0;
+    width: 287px;
+    height: 306px; 
+}
+.pay1 h5{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.2px;
+    text-align: center;
+}
+.pay1 p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    text-align: center;
+}
+.pay2 h5{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.2px;
+    text-align: center;   
+}
+.pay2 p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    text-align: center;
+}
+.pay3 h5{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.2px;
+    text-align: center;   
+}
+.pay3 p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    text-align: center;
+}
+@media only screen and (max-width: 991px){
+    .pay{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* <!-- section-5 --> */
+
+
+.why h6{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #0066FF;      
+}
+.why h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58.09px;    
+}
+.why p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+.more{
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+}
+.more1 img{
+    width: 100%;
+}
+.more1 h4{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.2px;
+}
+.more1 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px; 
+    padding: 10px 0;
+}
+.more1 button{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    background: none;
+    border: none;
+    color: #0066FF;
+}
+.more2 img{
+    width: 100%;
+}
+.more2 h4{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.2px;
+}
+.more2 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 10px 0;
+}
+.more2 button{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    background: none;
+    border: none;
+    color: #0066FF;
+}
+.more3 img{
+    width: 100%;
+}
+.more3 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 10px 0;
+}
+.more3 h4{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.2px; 
+}
+.more3 button{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    background: none;
+    border: none;
+    color: #0066FF;
+}
+.more4 img{
+    width: 100%;
+}
+.more4 h4{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24.2px;
+}
+.more4 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 24px 0;
+}
+.more4 button{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    background: none;
+    border: none;
+    color: #0066FF;
+}
+.btn{
+    text-align: center;
+}
+.btn button{
+    padding: 5px 25px;
+    background-color: #0066FF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    border: none;
+}.btn button{
+    padding: 5px 25px;
+    background-color: #0066FF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    border-radius: 5px;
+    border: none;
+}
+    
+
+
+@media only screen and (max-width: 991px){
+    .why{
+        text-align: center;
+    }
+    .more{
+        flex-direction: column;
+        text-align: center;
+    }
+    .more1 img{
+        height: 100%;
+        width: 100%;
+    }
+    .more2 img{
+        height: 100%;
+        width: 100%;
+    }
+    .more3 img{
+        height: 100%;
+        width: 100%;
+    }
+    .more4 img{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+/* section-6 */
+
+.sec6{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+.sec61 ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+.sec61 h5{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.09px;
+}
+.sec61 h5 span{
+    color: #0066FF;
+}
+.sec61 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.sec61 span{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.05px;
+}
+.design h4{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+}
+.design h4 span{
+    color: #0066FF;
+}
+
+@media only screen and (max-width: 991px){
+    .sec6{
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    .sec61 ul{
+        flex-direction: column;
+    }
+}
